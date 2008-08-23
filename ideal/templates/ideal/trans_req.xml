@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerTrxReq xmlns="http://www.idealdesk.com/Message" version="1.1.0">
+	<createDateTimeStamp>{{ timestamp }}</createDateTimeStamp>
+	<Issuer>
+		<issuerID>{{ issuer_id }}</issuerID>
+	</Issuer>
+	<Merchant>
+		<merchantID>{{ merchant_id }}</merchantID>
+		<subID>{{ sub_id }}</subID>
+		<authentication>{{ authentication_type }}</authentication>
+		<token>{{ token }}</token>
+		<tokenCode>{{ token_code }}</tokenCode>
+		<merchantReturnURL>{{ return_url }}</merchantReturnURL>
+	</Merchant>
+	<Transaction>
+		<purchaseID>{{ purchase_id }}</purchaseID>
+		<amount>{{ amount }}</amount>
+		<currency>{{ currency }}</currency>
+		<expirationPeriod>{{ expiration_period }}</expirationPeriod>
+		<language>{{ language }}</language>
+		<description>{{ description }}</description>
+		<entranceCode>{{ entrance_code }}</entranceCode>
+	</Transaction>
+</AcquirerTrxReq>

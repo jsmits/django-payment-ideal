@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerTrxRes xmlns="http://www.idealdesk.com/Message" version="1.1.0">  
+    <createDateTimeStamp>2000-12-28T13:59:59.393Z</createDateTimeStamp> 
+    <Acquirer>
+        <acquirerID>0050</acquirerID>
+    </Acquirer>  
+    <Issuer> 
+        <issuerAuthenticationURL>https://idealtest.rabobank.nl/ideal/issuerSim.do?trxid=1726846372615234&amp;ideal=prob</issuerAuthenticationURL> 
+    </Issuer>
+    <Transaction>
+        <transactionID>1726846372615234</transactionID>
+        <purchaseID>9459897270157938</purchaseID>
+    </Transaction>
+</AcquirerTrxRes>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerStatusReq xmlns="http://www.idealdesk.com/Message" version="1.1.0">
+	<createDateTimeStamp>{{ timestamp }}</createDateTimeStamp>
+	<Merchant>
+		<merchantID>{{ merchant_id }}</merchantID>
+		<subID>{{ sub_id }}</subID>
+		<authentication>{{ authentication_type }}</authentication>
+		<token>{{ token }}</token>
+		<tokenCode>{{ token_code }}</tokenCode>
+	</Merchant>
+	<Transaction>
+        <transactionID>{{ transaction_id }}</transactionID>
+    </Transaction>
+</AcquirerStatusReq>

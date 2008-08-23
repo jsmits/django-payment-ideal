@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerStatusRes xmlns="http://www.idealdesk.com/Message" version="1.1.0">
+    <createDateTimeStamp>2000-12-28T13:59:59.393Z</createDateTimeStamp> 
+    <Acquirer>
+        <acquirerID>0050</acquirerID>
+    </Acquirer>  
+    <Transaction>
+        <transactionID>1726846372615234</transactionID>
+        <status>Success</status>
+        <consumerName></consumerName>
+        <consumerAccountNumber></consumerAccountNumber>
+        <consumerCity>DEN HAAG</consumerCity>
+    </Transaction>
+    <Signature>
+        <signatureValue></signatureValue>
+        <fingerprint></fingerprint>
+    </Signature>
+</AcquirerStatusRes>

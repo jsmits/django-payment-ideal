@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ErrorRes xmlns="http://www.idealdesk.com/Message" version="1.1.0">
+    <createDateTimeStamp>2008-05-10T20:47:08.786Z</createDateTimeStamp>
+    <Error>
+        <errorCode>BR1230</errorCode>
+        <errorMessage>Field too short</errorMessage>
+        <errorDetail>Field generating error: Parameter &apos;0&apos; has less than 9 characters</errorDetail>
+        <consumerMessage>Betalen met iDEAL is nu niet mogelijk. Probeer het later nogmaals of betaal op een andere manier.</consumerMessage>
+    </Error>
+</ErrorRes>
