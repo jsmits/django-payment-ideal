@@ -66,4 +66,5 @@ DESCRIPTION = "iDeal betalingstransactie"
 # See documentation for more info
 ENTRANCE_CODE = "12345678"
 
+# XML namespace for parsing messages
 XML_NAMESPACE = "http://www.idealdesk.com/Message"
