@@ -1,0 +1,5 @@
+*.pyc
+/dev.db
+/*.py
+.DS_Store
+
