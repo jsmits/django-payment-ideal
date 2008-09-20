@@ -1,7 +1,7 @@
 # Configuration file iDEAL Advanced
 # Python implementation
 # See documentation for more info
-# (c) Sander Smits
+# (c) 2008 Sander Smits
 import os, sys
 
 MODULE_HOME = os.path.dirname(os.path.abspath(__file__))
