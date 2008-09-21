@@ -1,6 +1,6 @@
 *.pyc
 
-/dev.db
+/*.db
 /*.py
 
 # Mac OS X specific
